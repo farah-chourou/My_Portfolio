@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://farah-chourou.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,10 +28,12 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "yarn run react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:css": "postcss src/css/tailwind.css -o src/css/main.css"
+    "build:css": "postcss src/css/tailwind.css -o src/css/main.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -51,6 +54,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@tailwindcss/forms": "^0.5.2",
     "@testing-library/dom": "^8.20.0",
     "autoprefixer": "^10.4.7",

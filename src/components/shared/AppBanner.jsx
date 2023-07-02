@@ -5,11 +5,6 @@ import developerLight from "../../images/pcavatar.png";
 import developerDark from "../../images/pcavatar.png";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
-import {
-  GrFacebookOption,
-  RiLinkedinFill,
-  IoLogoGithub,
-} from "react-icons/all";
 
 const AppBanner = () => {
   const [activeTheme] = useThemeSwitcher();

@@ -1,16 +1,14 @@
 // Import images
 
 import { Types } from "../custom/Type";
+import image1 from "../images/work/GestionDesProject/1.png";
 
 export const projectsData = [
   {
     id: 1,
     title: "Projects Management Platform",
     category: Types.WEB,
-    img: [
-      "/images/work/GestionDesProject/1.png",
-      "/images/work/GestionDesProject/2.png",
-    ],
+    img: [image1, ".../images/work/GestionDesProject/2.png"],
     ProjectHeader: {
       title: "Project  & Task Management Platform",
       publishDate: "Jul 26, 2021",

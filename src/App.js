@@ -1,5 +1,5 @@
 import { AnimatePresence } from "framer-motion";
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, Redirect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import AppFooter from "./components/shared/AppFooter";
@@ -27,9 +27,10 @@ function App() {
   return (
     <AnimatePresence>
       <div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
-        <Router>
+        <Router basename="/My_Portfolio">
           <ScrollToTop />
           <AppHeader />
+
           <Suspense
             fallback={
               <div

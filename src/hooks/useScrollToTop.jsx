@@ -9,6 +9,8 @@ import SpeedDialIcon from "@mui/material/SpeedDialIcon";
 import SpeedDialAction from "@mui/material/SpeedDialAction";
 import { AiOutlineMessage } from "react-icons/ai";
 import HireMeModal from "../components/HireMeModal";
+import me from "../images/Avatar/contact-icon.png";
+import messageAvatar from "../images/Avatar/messageAvatar.png";
 
 const useScrollToTop = () => {
   const [showScroll, setShowScroll] = useState(false);
@@ -76,7 +78,7 @@ const useScrollToTop = () => {
           <SpeedDialIcon
             icon={
               <img
-                src="/images/contact-icon.png"
+                src={me}
                 // className="plugin-contact "
                 alt="Send me email"
                 width="62"
@@ -86,7 +88,7 @@ const useScrollToTop = () => {
             }
             openIcon={
               <img
-                src="/images/Avatar/messageAvatar.png"
+                src={messageAvatar}
                 alt="Send me email"
                 width="55"
                 height="55"

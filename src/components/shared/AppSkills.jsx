@@ -3,6 +3,17 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
+import spring from "../../images/skills/spring.png";
+import node from "../../images/skills/node.png";
+import reactImg from "../../images/skills/react.png";
+import reduxImg from "../../images/skills/redux.png";
+import flutterImg from "../../images/skills/flutter.png";
+import androidImg from "../../images/skills/android.png";
+import jsImg from "../../images/skills/js.png";
+import javaImg from "../../images/skills/java.png";
+import mongoImg from "../../images/skills/mongo.png";
+import firebaseImg from "../../images/skills/fireBase.png";
+import mysqlImg from "../../images/skills/mysql.png";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -24,39 +35,39 @@ function AppSkills() {
 
           <Grid container spacing={6} justify="center" alignItems="center">
             <Grid item xs={1.5}>
-              <img src="images/skills/spring.png" alt="spring boot" />
+              <img src={spring} alt="spring boot" />
             </Grid>
             <Grid item xs={1.5}>
-              <img src="images/skills/node.png" alt="spring boot" />{" "}
+              <img src={node} alt="spring boot" />{" "}
             </Grid>
             <Grid item xs={1.5}>
-              <img src="images/skills/react.png" alt="spring boot" />{" "}
+              <img src={reactImg} alt="spring boot" />{" "}
             </Grid>
             <Grid item xs={1.5}>
-              <img src="images/skills/redux.png" alt="spring boot" />
+              <img src={reduxImg} alt="spring boot" />
             </Grid>
             <Grid item xs={1.5}>
-              <img src="images/skills/flutter.png" alt="spring boot" />
+              <img src={flutterImg} alt="spring boot" />
             </Grid>
             <Grid item xs={1.5}>
-              <img src="images/skills/android.png" alt="spring boot" />
+              <img src={androidImg} alt="spring boot" />
             </Grid>
             <Grid item xs={1.5}>
-              <img src="images/skills/js.png" alt="spring boot" />
+              <img src={jsImg} alt="spring boot" />
             </Grid>
             <Grid item xs={1.5}>
-              <img src="images/skills/java.png" alt="spring boot" />
+              <img src={javaImg} alt="spring boot" />
             </Grid>
           </Grid>
           <Grid container spacing={6} justify="center" alignItems="center">
             <Grid item xs={2}>
-              <img src="images/skills/mongo.png" alt="spring boot" />
+              <img src={mongoImg} alt="spring boot" />
             </Grid>
             <Grid item xs={2}>
-              <img src="images/skills/fireBase.png" alt="FireBase" />
+              <img src={firebaseImg} alt="FireBase" />
             </Grid>{" "}
             <Grid item xs={2}>
-              <img src="images/skills/mysql.png" alt="Mysql" />
+              <img src={mysqlImg} alt="Mysql" />
             </Grid>
             <Grid item xs={false} />
           </Grid>

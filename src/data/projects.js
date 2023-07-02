@@ -2,13 +2,35 @@
 
 import { Types } from "../custom/Type";
 import image1 from "../images/work/GestionDesProject/1.png";
+import image2 from "../images/work/GestionDesProject/2.png";
+import image3 from "../images/work/ArtCollection/1.PNG";
+import image4 from "../images/work/ArtCollection/2.PNG";
+import image5 from "../images/work/pfe/1.png";
+import image6 from "../images/work/pfe/2.png";
+import image7 from "../images/work/pfe/3.png";
+import image8 from "../images/work/audioVis/2.png";
+import image9 from "../images/work/audioVis/1.png";
+import image10 from "../images/work/web2app/1.png";
+import image11 from "../images/work/collectUS/1.png";
+import image12 from "../images/work/collectUS/2.png";
+import image13 from "../images/work/collectUS/3.png";
+import image14 from "../images/work/dateNight/1.png";
+import image15 from "../images/work/dateNight/2.png";
+import image16 from "../images/work/dateNight/3.png";
+import image17 from "../images/work/mar3ouchaGame/1.png";
+import image18 from "../images/work/mar3ouchaGame/2.png";
+import image19 from "../images/work/AR/1.png";
+import image20 from "../images/work/AR/2.png";
+import image21 from "../images/work/3D/1.png";
+import image22 from "../images/work/3D/2.png";
+import image23 from "../images/work/3D/3.png";
 
 export const projectsData = [
   {
     id: 1,
     title: "Projects Management Platform",
     category: Types.WEB,
-    img: [image1, ".../images/work/GestionDesProject/2.png"],
+    img: [image1, image2],
     ProjectHeader: {
       title: "Project  & Task Management Platform",
       publishDate: "Jul 26, 2021",
@@ -30,10 +52,7 @@ export const projectsData = [
     id: 2,
     title: "Art Collection Platform",
     category: Types.WEB,
-    img: [
-      "/images/work/ArtCollection/1.png",
-      "/images/work/ArtCollection/2.png",
-    ],
+    img: [image3, image4],
     technologies: ["React JS", "Node JS", "Mongo DB"],
     ProjectHeader: {
       title: "Art Collection Platform",
@@ -65,11 +84,7 @@ export const projectsData = [
     id: 3,
     title: "Mutual By Codway",
     category: Types.WEB,
-    img: [
-      "/images/work/pfe/1.png",
-      "/images/work/pfe/2.png",
-      "/images/work/pfe/3.png",
-    ],
+    img: [image5, image6, image7],
     technologies: ["React JS", "Spring Boot", "MySql"],
     ProjectHeader: {
       title: "Health Management Web Application",
@@ -91,7 +106,7 @@ export const projectsData = [
     id: 10,
     title: "Audiovisual Agency Platform",
     category: Types.WEB,
-    img: ["/images/work/audioVis/1.png", "/images/work/audioVis/2.png"],
+    img: [image8, image9],
     technologies: ["React JS"],
     ProjectHeader: {
       title: "Audiovisual Agency Platform",
@@ -114,7 +129,7 @@ export const projectsData = [
     id: 4,
     title: "Web2App",
     category: Types.MOBILE,
-    img: ["/images/work/web2app/1.png"],
+    img: [image10],
     technologies: ["Flutter"],
     ProjectHeader: {
       title: "Web2App Application",
@@ -135,11 +150,7 @@ export const projectsData = [
     id: 5,
     title: "Collect US",
     category: Types.GAME,
-    img: [
-      "/images/work/collectUS/1.png",
-      "/images/work/collectUS/2.png",
-      "/images/work/collectUS/4.png",
-    ],
+    img: [image11, image12, image13],
     technologies: ["Unity", "C#"],
     ProjectHeader: {
       title: "2D/3D Game",
@@ -160,11 +171,7 @@ export const projectsData = [
     id: 6,
     title: "Date Night",
     category: Types.GAME,
-    img: [
-      "/images/work/dateNight/1.png",
-      "/images/work/dateNight/2.png",
-      "/images/work/dateNight/3.png",
-    ],
+    img: [image14, image15, image16],
     technologies: ["Unity", "C#"],
     ProjectHeader: {
       title: "2D Game",
@@ -185,10 +192,7 @@ export const projectsData = [
     id: 7,
     title: "The Lady in Endless Run",
     category: Types.GAME,
-    img: [
-      "/images/work/mar3ouchaGame/2.png",
-      "/images/work/mar3ouchaGame/1.png",
-    ],
+    img: [image17, image18],
     technologies: ["Unity", "C#"],
     ProjectHeader: {
       title: "The Lady in Endless Run",
@@ -209,7 +213,7 @@ export const projectsData = [
     id: 8,
     title: "Augmented Reality CV",
     category: Types.AR,
-    img: ["/images/work/AR/1.png", "/images/work/AR/2.png"],
+    img: [image19, image20],
     technologies: ["Unity", "C#", "AR kit", "Maya"],
     ProjectHeader: {
       title: "2D/3D Game",
@@ -230,11 +234,7 @@ export const projectsData = [
     id: 9,
     title: "3D Modeling",
     category: Types.THREED,
-    img: [
-      "/images/work/3D/1.png",
-      "/images/work/3D/2.png",
-      "/images/work/3D/3.png",
-    ],
+    img: [image21, image22, image23],
     technologies: ["Maya"],
     ProjectHeader: {
       title: "3D Modeling",

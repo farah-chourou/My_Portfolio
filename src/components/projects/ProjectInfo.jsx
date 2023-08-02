@@ -32,10 +32,10 @@ const ProjectInfo = () => {
                   <span>Services : </span>
                   <span>{item.about.services}</span>
                 </li>
-                <li className="font-general-regular text-ternary-dark dark:text-ternary-light">
+                {/* <li className="font-general-regular text-ternary-dark dark:text-ternary-light">
                   <span>Link : </span>
                   <span>{item.about.services}</span>
-                </li>
+                </li> */}
               </ul>
             </div>
 

@@ -24,6 +24,9 @@ import image20 from "../images/work/AR/2.png";
 import image21 from "../images/work/3D/1.png";
 import image22 from "../images/work/3D/2.png";
 import image23 from "../images/work/3D/3.png";
+import image24 from "../images/work/reactproject/3.PNG";
+import image25 from "../images/work/reactproject/4.PNG";
+import image26 from "../images/work/reactproject/6.PNG";
 
 export const projectsData = [
   {
@@ -124,6 +127,29 @@ export const projectsData = [
     },
     objective:
       "Sunt minim id velit sint ad cupidatat aliqua pariatur qui anim. Velit non fugiat et sit Lorem magna ullamco quis exercitation quis. Ut esse et consectetur quis incididunt dolor. Exercitation ullamco ullamco ut nostrud laboris proident velit exercitation sit fugiat. Occaecat veniam incididunt ea pariatur. Amet sunt consectetur aliqua eu.",
+  },
+  {
+    id: 11,
+    title: "University Platform Management",
+    category: Types.WEB,
+    img: [image24, image25, image26],
+    technologies: ["React JS", "Node JS", "Mongo DB"],
+    ProjectHeader: {
+      title: "Audiovisual Agency Platform",
+      publishDate: "Jul 26, 2021",
+      tags: Types.WEB,
+    },
+    description: [
+      "The University Platform Management is an integrated software platform designed to streamline and optimize various aspects of university operations related to student internships, events, and teacher management. It serves as a centralized hub for administrators, faculty members, students, and external stakeholders, providing them with tools and functionalities to enhance their experience and efficiency within the university ecosystem. ",
+    ],
+    about: {
+      type: "Freelance",
+      services: "Front End  & Backend Development ",
+      lienGithub: "",
+      technologiesDetails: ["React JS", "Node JS", "Mongo DB", "Material UI"],
+    },
+    objective:
+      "The University Platform Management is an integrated software platform designed to streamline and optimize various aspects of university operations related to student internships, events, and teacher management. It serves as a centralized hub for administrators, faculty members, students, and external stakeholders, providing them with tools and functionalities to enhance their experience and efficiency within the university ecosystem.",
   },
   {
     id: 4,

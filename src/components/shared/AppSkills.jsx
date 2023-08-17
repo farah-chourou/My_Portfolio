@@ -34,39 +34,44 @@ function AppSkills() {
           </p>
 
           <Grid container spacing={6} justify="center" alignItems="center">
-            <Grid item xs={1.5}>
+            <Grid item xs={3} sm={3} md={1.5}>
               <img src={spring} alt="spring boot" />
             </Grid>
-            <Grid item xs={1.5}>
+            <Grid item xs={3} sm={1} md={1.5}>
               <img src={node} alt="spring boot" />{" "}
             </Grid>
-            <Grid item xs={1.5}>
+            <Grid item xs={3} sm={1} md={1.5}>
               <img src={reactImg} alt="spring boot" />{" "}
             </Grid>
-            <Grid item xs={1.5}>
+            <Grid item xs={3} sm={1} md={1.5}>
               <img src={reduxImg} alt="spring boot" />
             </Grid>
-            <Grid item xs={1.5}>
+            <Grid item xs={3} sm={1} md={1.5}>
               <img src={flutterImg} alt="spring boot" />
             </Grid>
-            <Grid item xs={1.5}>
+            <Grid item xs={3} sm={1} md={1.5}>
               <img src={androidImg} alt="spring boot" />
             </Grid>
-            <Grid item xs={1.5}>
+            <Grid item xs={3} sm={1} md={1.5}>
               <img src={jsImg} alt="spring boot" />
             </Grid>
-            <Grid item xs={1.5}>
+            <Grid item xs={3} sm={1} md={1.5}>
               <img src={javaImg} alt="spring boot" />
             </Grid>
           </Grid>
-          <Grid container spacing={6} justify="center" alignItems="center">
-            <Grid item xs={2}>
+          <Grid
+            container
+            spacing={2}
+            justifyContent="center"
+            alignItems="center"
+          >
+            <Grid item xs={3} sm={1} md={1.5}>
               <img src={mongoImg} alt="spring boot" />
             </Grid>
-            <Grid item xs={2}>
+            <Grid item xs={3} sm={1} md={1.5}>
               <img src={firebaseImg} alt="FireBase" />
             </Grid>{" "}
-            <Grid item xs={2}>
+            <Grid item xs={3} sm={1} md={1.5}>
               <img src={mysqlImg} alt="Mysql" />
             </Grid>
             <Grid item xs={false} />

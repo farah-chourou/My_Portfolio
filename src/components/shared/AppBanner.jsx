@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState, useEffect } from "react";
 import useThemeSwitcher from "../../hooks/useThemeSwitcher";
 import { FiArrowDownCircle } from "react-icons/fi";
@@ -5,6 +6,7 @@ import developerLight from "../../images/pcavatar.png";
 import developerDark from "../../images/pcavatar.png";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
+import cv from "./Cv.pdf";
 
 const AppBanner = () => {
   const [activeTheme] = useThemeSwitcher();
@@ -45,15 +47,12 @@ const AppBanner = () => {
 
     return () => clearTimeout(timeout);
   }, [textIndex, textLength, texts.length]);
+
   const handleDownload = () => {
-    const pdfUrl = "./files/CV.pdf";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.setAttribute("download", "example.pdf");
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    const pdfFilePath = "/CV_farah.pdf";
+    window.open(pdfFilePath, "_blank");
   };
+
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -133,8 +132,8 @@ const AppBanner = () => {
           className="flex justify-center sm:block"
         >
           <a
-            download
-            href="./files/CV_ang_Farah_Chourou.pdf"
+            href={cv}
+            download="your-ile-name.pdf"
             className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
             aria-label="Download Resume"
           >

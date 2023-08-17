@@ -27,6 +27,9 @@ import image23 from "../images/work/3D/3.png";
 import image24 from "../images/work/reactproject/3.PNG";
 import image25 from "../images/work/reactproject/4.PNG";
 import image26 from "../images/work/reactproject/6.PNG";
+import image27 from "../images/work/mBooking/4.PNG";
+import image28 from "../images/work/mBooking/1.PNG";
+import image29 from "../images/work/mBooking/3.PNG";
 
 export const projectsData = [
   {
@@ -43,6 +46,35 @@ export const projectsData = [
     description: [
       "This app is to enhance productivity and streamline project management. It provides a centralized platform for individuals or teams to organize and manage tasks effectively. By assigning tasks to team members and setting deadlines, the app ensures accountability and helps maintain a clear overview of project progress.",
       " With real-time tracking, users can monitor task completion, identify bottlenecks, and make informed decisions to keep projects on schedule. Ultimately, this app aims to optimize teamwork, improve efficiency, and ensure projects are delivered successfully within the set timelines.",
+    ],
+    about: {
+      type: "Freelance",
+      services: "Front End  & Backend Development ",
+      lienGithub: "",
+      technologiesDetails: ["React JS", "Node JS", "Mongo DB", "Material UI"],
+    },
+  },
+  {
+    id: 20,
+    title: "LuxuryBookings",
+    category: Types.WEB,
+    img: [image27, image28, image29],
+    ProjectHeader: {
+      title: "LuxuryBookings Platform",
+      publishDate: "Jul 26, 2021",
+      tags: Types.WEB,
+    },
+    technologies: ["React JS", "Node JS", "Mongo DB"],
+    description: [
+      "LuxuryBookings is a cutting-edge web platform designed to revolutionize the way users book appointments at exclusive beauty and wellness establishments. With a sleek and intuitive interface, LuxuryBookings connects users with top-tier makeup studios, spas, hair salons, and other luxury spaces that offer premium services. ",
+      "This platform offers a seamless and convenient booking experience, enhancing accessibility to upscale experiences.",
+      "Key Features:   ",
+      "1- Engaging Homepage: LuxuryBookings welcomes users with an inviting homepage that showcases collaborators and available services, providing a glimpse into the luxury experiences on offer.",
+      "2- Proximity Search: Users can easily find collaborators near their location through the integrated Google Maps feature, ensuring effortless discovery of nearby luxury services.",
+      "3- User-Centric Management: A comprehensive user management system allows users to create accounts, manage personal profiles, and access their booking history, ensuring a personalized experience.",
+      ,
+      "4- Collaborator Empowerment: Collaborators can establish their presence on the platform, managing services, availability, and profiles. Real-time notifications keep them informed about incoming bookings.",
+      "5- Effortless Online Booking: Users can effortlessly schedule appointments, selecting services, collaborators, and preferred dates/times. Real-time availability ensures a smooth booking process.",
     ],
     about: {
       type: "Freelance",

@@ -50,7 +50,7 @@ function AppSkills() {
               <img src={flutterImg} alt="spring boot" />
             </Grid>
             <Grid item xs={3} sm={1} md={1.5}>
-              <img src={androidImg} alt="spring boot" />
+              <img src={androidImg} alt="spring bot" />
             </Grid>
             <Grid item xs={3} sm={1} md={1.5}>
               <img src={jsImg} alt="spring boot" />

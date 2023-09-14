@@ -8,18 +8,23 @@ const AboutMeBio = () => {
 
   return (
     <div className="block sm:flex sm:gap-10 mt-10 sm:mt-20">
-      <div className="w-full sm:w-1/4 mb-7 sm:mb-0">
-        <img src={Me} alt="Developer" />
+      <div className="w-full sm:w-1/3 mb-7 sm:mb-0">
+        <div className="rounded-image-container mx-auto sm:mx-0">
+          <div className="circular-image mx-auto sm:mx-0 ">
+            <img src={Me} alt="Developer" loading="lazy" />
+          </div>
+        </div>
       </div>
 
       <div className="font-general-regular w-full sm:w-3/4 text-left">
         <p className="mb-4 text-ternary-dark dark:text-ternary-light text-lg">
-          Hi there! I'am <b>Chourou Farah </b>
-          <br></br>A passionate <b> programmer</b>, I am a{" "}
-          <b> Full Stack Web Developer</b> located in Tunisia . I'am software
-          engeering student in Higher Institute of Arts Manouba Multimedia
-          (ISAMM).
-          <br></br>I love learning about <b> new technologies</b>, what problems
+          Hi there! I'am <b className="text-light-blue">Chourou Farah </b>
+          <br></br>A passionate <b className="text-light-blue"> programmer</b>,
+          I am a <b className="text-light-blue"> Full Stack Web Developer</b>{" "}
+          located in Tunisia . I'am software engeering student in Higher
+          Institute of Arts Manouba Multimedia (ISAMM).
+          <br></br>I love learning about{" "}
+          <b className="text-light-blue"> new technologies</b>, what problems
           are they solving and How can I use them to build better and scalable
           products.
           <h3 style={{ marginTop: 20 }}>Why Choose Me?</h3>{" "}

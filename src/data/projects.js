@@ -30,6 +30,7 @@ import image26 from "../images/work/reactproject/6.PNG";
 import image27 from "../images/work/mBooking/4.PNG";
 import image28 from "../images/work/mBooking/1.PNG";
 import image29 from "../images/work/mBooking/3.PNG";
+import image30 from "../images/work/TunisianCampers/1.png";
 
 export const projectsData = [
   {
@@ -167,7 +168,7 @@ export const projectsData = [
     img: [image24, image25, image26],
     technologies: ["React JS", "Node JS", "Mongo DB"],
     ProjectHeader: {
-      title: "Audiovisual Agency Platform",
+      title: "University Platform Management",
       publishDate: "Jul 26, 2021",
       tags: Types.WEB,
     },
@@ -307,6 +308,27 @@ export const projectsData = [
       services: "3D modeling ",
       lienGithub: "",
       technologiesDetails: ["Maya"],
+    },
+  },
+  {
+    id: 21,
+    title: "TunisianCamp",
+    category: Types.MOBILE,
+    img: [image30],
+    technologies: ["Android", "Java", "FireBase"],
+    ProjectHeader: {
+      title: "TunisianCamp Application",
+      publishDate: "Jul 26, 2021",
+      tags: Types.MOBILE,
+    },
+    description: [
+      " The Tunisian Campers mobile application is your go-to camping companion for exploring the breathtaking landscapes and hidden gems of Tunisia's diverse camping destinations. Whether you're an experienced camper or a newbie looking to embrace the great outdoors, this app has everything you need to plan, enhance, and document your camping adventures.",
+    ],
+    about: {
+      type: "Academic Project",
+      services: "Mobile Development  ",
+      lienGithub: "",
+      technologiesDetails: ["Android", "Java", "FireBase"],
     },
   },
 ];

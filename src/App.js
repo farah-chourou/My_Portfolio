@@ -26,6 +26,7 @@ function App() {
   };
   return (
     <AnimatePresence>
+      {" "}
       <div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
         <Router basename="/My_Portfolio">
           <ScrollToTop />
@@ -50,7 +51,7 @@ function App() {
           >
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="projects" element={<Projects />} />
+              <Route path="/projects" element={<Projects />} />
               <Route
                 path="projects/:id/single-project"
                 element={<ProjectSingle />}

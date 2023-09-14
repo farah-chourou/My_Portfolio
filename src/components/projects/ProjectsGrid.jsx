@@ -1,8 +1,11 @@
+import { useState } from "react";
 import { useContext } from "react";
 import { FiSearch } from "react-icons/fi";
 import ProjectSingle from "./ProjectSingle";
 import { ProjectsContext } from "../../context/ProjectsContext";
 import ProjectsFilter from "./ProjectsFilter";
+import Button from "../reusable/Button";
+import { Link } from "react-router-dom";
 
 const ProjectsGrid = () => {
   const {
@@ -15,10 +18,12 @@ const ProjectsGrid = () => {
     selectProjectsByCategory,
   } = useContext(ProjectsContext);
 
+  const [displayCount, setDisplayCount] = useState(6);
+
   return (
     <section className="py-5 sm:py-10 mt-5 sm:mt-10">
       <div className="text-center">
-        <p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
+        <p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light section-title">
           Projects portfolio
         </p>
       </div>
@@ -95,34 +100,56 @@ const ProjectsGrid = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
         {selectProject
-          ? selectProjectsByCategory.map((project) => (
-              <ProjectSingle
-                title={project.title}
-                category={project.category}
-                image={project.img}
-                key={project.id}
-              />
-            ))
+          ? selectProjectsByCategory
+              .slice(0, displayCount)
+              .map((project) => (
+                <ProjectSingle
+                  title={project.title}
+                  category={project.category}
+                  image={project.img}
+                  key={project.id}
+                />
+              ))
           : searchProject
-          ? searchProjectsByTitle.map((project) => (
-              <ProjectSingle
-                title={project.title}
-                category={project.category}
-                image={project.img}
-                key={project.id}
-                technologies={project.technologies}
-              />
-            ))
-          : projects.map((project) => (
-              <ProjectSingle
-                title={project.title}
-                category={project.category}
-                image={project.img}
-                technologies={project.technologies}
-                id={project.id}
-                key={project.id}
-              />
-            ))}
+          ? searchProjectsByTitle
+              .slice(0, displayCount)
+              .map((project) => (
+                <ProjectSingle
+                  title={project.title}
+                  category={project.category}
+                  image={project.img}
+                  key={project.id}
+                  technologies={project.technologies}
+                />
+              ))
+          : projects
+              .slice(0, displayCount)
+              .map((project) => (
+                <ProjectSingle
+                  title={project.title}
+                  category={project.category}
+                  image={project.img}
+                  technologies={project.technologies}
+                  id={project.id}
+                  key={project.id}
+                />
+              ))}
+      </div>
+      <div className="mt-8 sm:mt-10 flex justify-center">
+        {displayCount <
+          (selectProject
+            ? selectProjectsByCategory.length
+            : searchProject
+            ? searchProjectsByTitle.length
+            : projects.length) && (
+          <button
+            onClick={() => setDisplayCount(displayCount + 6)} // Increase by 6
+            className="font-general-medium px-6 py-3 rounded-lg shadow-lg hover:shadow-xl bg-light-blue hover:bg-light-blue-2 focus:ring-1 focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
+            aria-label="Show More Projects"
+          >
+            Show More
+          </button>
+        )}
       </div>
     </section>
   );

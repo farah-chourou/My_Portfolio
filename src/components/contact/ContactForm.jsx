@@ -36,7 +36,7 @@ const ContactForm = () => {
       <div className="leading-loose">
         <form
           onSubmit={(e) => handleSubmit(e)}
-          className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
+          className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-ternary-dark rounded-xl shadow-xl text-left"
         >
           <p className="font-general-medium text-primary-dark dark:text-primary-light text-2xl mb-8">
             Contact Form
@@ -48,7 +48,7 @@ const ContactForm = () => {
             Name
           </label>
           <input
-            className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
+            className="w-full px-5 py-2 border dark:border-light-blue rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
             placeholder="Full Name"
             type="text"
             name="Name"
@@ -58,13 +58,13 @@ const ContactForm = () => {
             onChange={(e) => setName(e.target.value)}
           />
           <label
-            className="block text-lg text-primary-dark dark:text-primary-light mb-2"
+            className=" mt-4 block text-lg text-primary-dark dark:text-primary-light mb-2"
             htmlFor="message"
           >
             Email
           </label>
           <input
-            className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
+            className="w-full px-5 py-2 border dark:border-light-blue rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
             placeholder="email"
             type="email"
             name="Email"
@@ -74,13 +74,13 @@ const ContactForm = () => {
             onChange={(e) => setEmail(e.target.value)}
           />
           <label
-            className="block text-lg text-primary-dark dark:text-primary-light mb-2"
+            className=" mt-4 block text-lg text-primary-dark dark:text-primary-light mb-2"
             htmlFor="message"
           >
             Subject
           </label>
           <input
-            className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
+            className="w-full px-5 py-2 border dark:border-light-blue rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
             placeholder="Subject"
             type="text"
             inputId="subject"
@@ -99,7 +99,7 @@ const ContactForm = () => {
               Message
             </label>
             <textarea
-              className="w-full px-5 py-2 border border-gray-300 dark:border-primary-dark border-opacity-50 text-primary-dark dark:text-secondary-light bg-ternary-light dark:bg-ternary-dark rounded-md shadow-sm text-md"
+              className="w-full px-5 py-2 border border-gray-300 dark:border-light-blue border-opacity-50 text-primary-dark dark:text-secondary-light bg-ternary-light dark:bg-ternary-dark rounded-md shadow-sm text-md"
               id="message"
               name="Description"
               cols="14"
@@ -110,7 +110,7 @@ const ContactForm = () => {
             ></textarea>
           </div>
 
-          <div className="font-general-medium w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500">
+          <div className="font-general-medium w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-light-blue hover:bg-light-blue-2 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500">
             <Button
               title="Send Message"
               type="submit"

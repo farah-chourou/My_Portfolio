@@ -6,7 +6,7 @@ import AppFooter from "./components/shared/AppFooter";
 import AppHeader from "./components/shared/AppHeader";
 import "./css/App.css";
 import UseScrollToTop from "./hooks/useScrollToTop";
-import Lottie from "lottie-react";
+import { useLottie } from "lottie-react";
 import animationData from "./images/animations/loading.json";
 
 const About = lazy(() => import("./pages/AboutMe"));
@@ -21,6 +21,8 @@ function App() {
     autoplay: true,
     animationData: animationData,
   };
+  const { View } = useLottie(defaultOptions);
+
   return (
     <AnimatePresence>
       {" "}
@@ -40,9 +42,7 @@ function App() {
                   height: "100vh",
                 }}
               >
-                <div style={{ width: "100px", height: "100px" }}>
-                  <Lottie options={defaultOptions} />
-                </div>
+                <div style={{ width: "100px", height: "100px" }}>{View}</div>
               </div>
             }
           >

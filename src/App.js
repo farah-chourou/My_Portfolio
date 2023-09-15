@@ -6,10 +6,7 @@ import AppFooter from "./components/shared/AppFooter";
 import AppHeader from "./components/shared/AppHeader";
 import "./css/App.css";
 import UseScrollToTop from "./hooks/useScrollToTop";
-import { useState, useEffect } from "react";
-import CircularProgress from "@mui/material/CircularProgress";
-import Box from "@mui/material/Box";
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 import animationData from "./images/animations/loading.json";
 
 const About = lazy(() => import("./pages/AboutMe"));

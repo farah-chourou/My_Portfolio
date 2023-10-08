@@ -20,6 +20,22 @@ const ProjectsGrid = () => {
 
   const [displayCount, setDisplayCount] = useState(6);
 
+  // Filter projects by both title and category
+  const filteredProjects = projects.filter((project) => {
+    if (selectProject && searchProject) {
+      return (
+        project.category === selectProject &&
+        project.title.toLowerCase().includes(searchProject.toLowerCase())
+      );
+    } else if (selectProject) {
+      return project.category === selectProject;
+    } else if (searchProject) {
+      return project.title.toLowerCase().includes(searchProject.toLowerCase());
+    } else {
+      return true; // No filters applied
+    }
+  });
+
   return (
     <section className="py-5 sm:py-10 mt-5 sm:mt-10">
       <div className="text-center">
@@ -99,41 +115,15 @@ const ProjectsGrid = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
-        {selectProject
-          ? selectProjectsByCategory
-              .slice(0, displayCount)
-              .map((project) => (
-                <ProjectSingle
-                  title={project.title}
-                  category={project.category}
-                  image={project.img}
-                  key={project.id}
-                />
-              ))
-          : searchProject
-          ? searchProjectsByTitle
-              .slice(0, displayCount)
-              .map((project) => (
-                <ProjectSingle
-                  title={project.title}
-                  category={project.category}
-                  image={project.img}
-                  key={project.id}
-                  technologies={project.technologies}
-                />
-              ))
-          : projects
-              .slice(0, displayCount)
-              .map((project) => (
-                <ProjectSingle
-                  title={project.title}
-                  category={project.category}
-                  image={project.img}
-                  technologies={project.technologies}
-                  id={project.id}
-                  key={project.id}
-                />
-              ))}
+        {filteredProjects.slice(0, displayCount).map((project) => (
+          <ProjectSingle
+            title={project.title}
+            category={project.category}
+            image={project.img}
+            key={project.id}
+            id={project.id}
+          />
+        ))}
       </div>
       <div className="mt-8 sm:mt-10 flex justify-center">
         {displayCount <

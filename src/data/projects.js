@@ -22,15 +22,18 @@ import image18 from "../images/work/mar3ouchaGame/2.png";
 import image19 from "../images/work/AR/1.png";
 import image20 from "../images/work/AR/2.png";
 import image21 from "../images/work/3D/1.png";
-import image22 from "../images/work/3D/2.png";
+import image22 from "../images/work/3D/4.png";
 import image23 from "../images/work/3D/3.png";
 import image24 from "../images/work/reactproject/3.PNG";
 import image25 from "../images/work/reactproject/4.PNG";
 import image26 from "../images/work/reactproject/6.PNG";
 import image27 from "../images/work/mBooking/4.PNG";
 import image28 from "../images/work/mBooking/1.PNG";
-import image29 from "../images/work/mBooking/3.PNG";
+import image29 from "../images/work/mBooking/2.PNG";
 import image30 from "../images/work/TunisianCampers/1.png";
+import image31 from "../images/work/DsStore/1.PNG";
+import image32 from "../images/work/DsStore/4.PNG";
+import image33 from "../images/work/DsStore/5.PNG";
 
 export const projectsData = [
   {
@@ -115,6 +118,35 @@ export const projectsData = [
     },
     objective:
       "Sunt minim id velit sint ad cupidatat aliqua pariatur qui anim. Velit non fugiat et sit Lorem magna ullamco quis exercitation quis. Ut esse et consectetur quis incididunt dolor. Exercitation ullamco ullamco ut nostrud laboris proident velit exercitation sit fugiat. Occaecat veniam incididunt ea pariatur. Amet sunt consectetur aliqua eu.",
+  },
+  {
+    id: 22,
+    title: "TV Subscription Hub",
+    category: Types.WEB,
+    img: [image31, image32, image33],
+    technologies: ["React JS", "Node JS", "Mongo DB"],
+    ProjectHeader: {
+      title: "TV Subscription Management Platform",
+      publishDate: "Oct 11, 2023",
+      tags: Types.WEB,
+    },
+    description: [
+      "TV Subscription Hub is a comprehensive platform designed to streamline the operations of online TV subscription stores. With our user-friendly tools and features, you can efficiently manage customer subscriptions, automate billing. ",
+    ],
+    about: {
+      type: "Freelance",
+      services: "Front End  & Backend Development & Deployment ",
+      lienGithub: "",
+      technologiesDetails: [
+        "React JS",
+        "Node JS",
+        "Mongo DB",
+        "Redux toolkit",
+        "Material UI",
+        "Docker",
+      ],
+    },
+    objective: "Sunt minim  ygt gf t gth th t ",
   },
   {
     id: 3,

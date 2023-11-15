@@ -43,7 +43,7 @@ export const projectsData = [
     category: Types.WEB,
     img: [image1, image2],
     ProjectHeader: {
-      title: "Project  & Task Management Platform",
+      title: "Project & Task Management Platform",
       publishDate: "Jul 26, 2021",
       tags: Types.WEB,
     },

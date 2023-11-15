@@ -11,19 +11,19 @@ import image7 from "../images/work/pfe/3.png";
 import image8 from "../images/work/audioVis/2.png";
 import image9 from "../images/work/audioVis/1.png";
 import image10 from "../images/work/web2app/1.png";
-import image11 from "../images/work/collectUS/1.png";
+import image11 from "../images/work/collectUS/1.PNG";
 import image12 from "../images/work/collectUS/2.png";
 import image13 from "../images/work/collectUS/3.png";
 import image14 from "../images/work/dateNight/1.png";
 import image15 from "../images/work/dateNight/2.png";
 import image16 from "../images/work/dateNight/3.png";
 import image17 from "../images/work/mar3ouchaGame/1.png";
-import image18 from "../images/work/mar3ouchaGame/2.png";
+import image18 from "../images/work/mar3ouchaGame/2.PNG";
 import image19 from "../images/work/AR/1.png";
 import image20 from "../images/work/AR/2.png";
-import image21 from "../images/work/3D/1.png";
-import image22 from "../images/work/3D/4.png";
-import image23 from "../images/work/3D/3.png";
+import image21 from "../images/work/3D/1.PNG";
+import image22 from "../images/work/3D/2.PNG";
+import image23 from "../images/work/3D/3.PNG";
 import image24 from "../images/work/reactproject/3.PNG";
 import image25 from "../images/work/reactproject/4.PNG";
 import image26 from "../images/work/reactproject/6.PNG";
@@ -34,6 +34,7 @@ import image30 from "../images/work/TunisianCampers/1.png";
 import image31 from "../images/work/DsStore/1.PNG";
 import image32 from "../images/work/DsStore/4.PNG";
 import image33 from "../images/work/DsStore/5.PNG";
+import image34 from "../images/work/mar3ouchaGame/3.PNG";
 
 export const projectsData = [
   {
@@ -283,7 +284,7 @@ export const projectsData = [
     id: 7,
     title: "The Lady in Endless Run",
     category: Types.GAME,
-    img: [image17, image18],
+    img: [image34, image17, image18],
     technologies: ["Unity", "C#"],
     ProjectHeader: {
       title: "The Lady in Endless Run",

@@ -11,22 +11,28 @@ const AboutMeBio = () => {
       <div className="w-full sm:w-1/3 mb-7 sm:mb-0">
         <div className="rounded-image-container mx-auto sm:mx-0">
           <div className="circular-image mx-auto sm:mx-0 ">
-            <img src={Me} alt="Developer" loading="lazy" />
+            <img src={Me} alt="Developer" />
           </div>
         </div>
       </div>
 
       <div className="font-general-regular w-full sm:w-3/4 text-left">
         <p className="mb-4 text-ternary-dark dark:text-ternary-light text-lg">
-          Hi there! I'am <b className="text-light-blue">Chourou Farah </b>
-          <br></br>A passionate <b className="text-light-blue"> programmer</b>,
-          I am a <b className="text-light-blue"> Full Stack Web Developer</b>{" "}
-          located in Tunisia . I'am software engeering student in Higher
-          Institute of Arts Manouba Multimedia (ISAMM).
-          <br></br>I love learning about{" "}
-          <b className="text-light-blue"> new technologies</b>, what problems
-          are they solving and How can I use them to build better and scalable
-          products.
+          Hi there! I'm <b className="text-light-blue">Chourou Farah</b>, a
+          passionate programmer and{" "}
+          <b className="text-light-blue">Full Stack Web Developer</b> based in
+          Tunisia. I specialize in JavaScript and its frameworks like React,
+          Nest.js, Next.js, and Node.js.
+          <br></br>
+          As a <b className="text-light-blue">software engineer</b>, I love
+          exploring new technologies, understanding the problems they solve, and
+          leveraging them to create better and more scalable products.
+          <br></br>
+          Recently, I've been interested in Large Language Models (LLMs) like
+          OpenAI's GPT-4.
+          <br></br>
+          My goal is to stay updated with technological advancements to build
+          better and more scalable products.
           <h3 style={{ marginTop: 20 }}>Why Choose Me?</h3>{" "}
           <div className="ml-2 mt-2">
             <div

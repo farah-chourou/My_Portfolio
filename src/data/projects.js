@@ -35,8 +35,77 @@ import image31 from "../images/work/DsStore/1.PNG";
 import image32 from "../images/work/DsStore/4.PNG";
 import image33 from "../images/work/DsStore/5.PNG";
 import image34 from "../images/work/mar3ouchaGame/3.PNG";
+import image35 from "../images/work/smartBot/1.PNG";
+import image36 from "../images/work/smartBot/2.PNG";
+import image37 from "../images/work/smartBot/3.PNG";
+import image39 from "../images/work/rcrooter/19.PNG";
+import image40 from "../images/work/rcrooter/4.PNG";
+import image41 from "../images/work/rcrooter/28.PNG";
+import image42 from "../images/work/rcrooter/36.PNG";
 
 export const projectsData = [
+  {
+    id: 38,
+    title: "Rcrooter",
+    category: Types.WEB,
+    img: [image42, image40, image41],
+    ProjectHeader: {
+      title: "Rcrooter",
+      publishDate: "Jul 26, 2021",
+      tags: Types.WEB,
+    },
+    technologies: [
+      "Next JS",
+      "Nest JS",
+      "Mysql",
+      "Prisma",
+      "LLM (Model GPT 3.5)",
+      "Shadcn UI",
+    ],
+    description: [
+      "RCrooter is designed to address common recruitment challenges, such as inefficiencies in managing applications, difficulties in evaluating candidate competencies, and high workloads for HR professionals. By automating and optimizing key recruitment processes, RCrooter not only saves time but also enhances the quality of hires.",
+      "The platform is also responsive and mobile-friendly, ensuring that users can access its features and functionalities on any device, at any time.",
+      "With RCrooter, recruiters can focus more on strategic decision-making and less on administrative tasks, ultimately leading to a more effective and streamlined recruitment process.",
+    ],
+    about: {
+      type: "End of study project",
+      services: "Front End  & Backend Development ",
+      lienGithub: "",
+      demo: "https://youtu.be/Bi_UAutZXBQ",
+
+      technologiesDetails: [
+        "Next JS",
+        "Nest JS",
+        "Mysql",
+        "Prsima",
+        "LLM (Model GPT 3.5)",
+        "Shadcn UI",
+      ],
+    },
+  },
+  {
+    id: 39,
+    title: "Smart BOT Hub",
+    category: Types.WEB,
+    img: [image36, image35, image37],
+    ProjectHeader: {
+      title: "Smart BOT Hub",
+      publishDate: "Jul 26, 2021",
+      tags: Types.WEB,
+    },
+    technologies: ["React JS", "LLM(Model GPT 3.5)", "Material UI"],
+    description: [
+      "Smart Bot Hub is an innovative platform designed to enhance productivity and streamline various tasks using advanced AI capabilities. It offers two main functionalities.",
+      "Firstly, users can upload a PDF file to the platform, and the bot can answer any questions related to the content of the PDF, providing accurate and context-aware responses.",
+      "Secondly, the platform supports code translation across multiple programming languages. Leveraging Large Language Models (LLM) and the services of Eden AI, users can convert code from one language to another seamlessly. Smart Bot Hub combines the power of AI with practical tools to deliver a versatile and efficient user experience.",
+    ],
+    about: {
+      type: "Academic Project",
+      services: "Front End Development ",
+      lienGithub: "",
+      technologiesDetails: ["React JS", "LLM(Model GPT 3.5)", "Material UI"],
+    },
+  },
   {
     id: 1,
     title: "Projects Management Platform",
@@ -167,6 +236,8 @@ export const projectsData = [
       type: "End of study project",
       services: "Front End  & Backend Development ",
       lienGithub: "",
+      demo: "https://www.youtube.com/watch?v=2LwC_fBWsjo",
+
       technologiesDetails: ["React JS", "Spring Boot", "MySQL", "Bootstrap"],
     },
     objective: "Sunt minim  ygt gf t gth th t ",
@@ -319,6 +390,8 @@ export const projectsData = [
       type: "Academic Project",
       services: "AR Development ",
       lienGithub: "",
+      demo: "https://www.youtube.com/watch?v=qMDqxmKZ5R4",
+
       technologiesDetails: ["Unity", "C#", "AR kit", "Maya"],
     },
   },

@@ -31,11 +31,17 @@ const ProjectInfo = () => {
                 <li className="font-general-regular text-ternary-dark dark:text-ternary-light">
                   <span>Services : </span>
                   <span>{item.about.services}</span>
-                </li>
-                {/* <li className="font-general-regular text-ternary-dark dark:text-ternary-light">
-                  <span>Link : </span>
-                  <span>{item.about.services}</span>
-                </li> */}
+                </li>{" "}
+                {item.about.demo && item.about.demo != "" ? (
+                  <li className="font-general-regular text-ternary-dark dark:text-ternary-light">
+                    <span>Demo : </span>
+                    <span className="underline decoration-blue-500 decoration-2 text-indigo-500 hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300">
+                      {item.about.demo}
+                    </span>
+                  </li>
+                ) : (
+                  ""
+                )}
               </ul>
             </div>
 

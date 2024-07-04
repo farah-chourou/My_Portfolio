@@ -24,7 +24,6 @@ const ProjectGallery = () => {
           project.img.map((item, index) => (
             <div className="mb-10 sm:mb-0" key={index}>
               <img
-                loading="lazy"
                 src={item}
                 className="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
                 alt={item}

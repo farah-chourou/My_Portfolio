@@ -19,6 +19,8 @@ import mysqlImg from "../../images/skills/mysql.png";
 import docker from "../../images/skills/docker.png";
 import github from "../../images/skills/github.png";
 import Next from "../../images/skills/Nextjs.png";
+import nest from "../../images/skills/Nestjs.png";
+import TS from "../../images/skills/ts.png";
 
 const SkillImage = styled(motion.img)(({ theme }) => ({
   // backgroundColor: theme.palette.mode === "dark" ? "" : "",
@@ -38,6 +40,9 @@ const SkillImage = styled(motion.img)(({ theme }) => ({
 const skills = [
   { imgSrc: spring, altText: "Spring Boot" },
   { imgSrc: node, altText: "Node.js" },
+  { imgSrc: nest, altText: "Nest.js" },
+  { imgSrc: TS, altText: "TypeScript" },
+
   { imgSrc: reactImg, altText: "React" },
   { imgSrc: Next, altText: "Next.js" },
   { imgSrc: reduxImg, altText: "Redux" },

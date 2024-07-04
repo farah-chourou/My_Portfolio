@@ -26,7 +26,6 @@ const ProjectSingle = ({ title, category, image, technologies, id }) => {
               src={image[0]}
               className="rounded-t-xl border-none"
               alt="Single Project"
-              loading="lazy"
             />
           </div>
           <div className="text-center px-4 py-6">

@@ -329,6 +329,8 @@ export const projectsData = [
       type: "Academic Project",
       services: "Game Development ",
       lienGithub: "",
+      demo: "https://www.youtube.com/watch?v=ePU5GN8pRaA&feature=youtu.be",
+
       technologiesDetails: ["Unity", "C#", "Maya"],
     },
   },

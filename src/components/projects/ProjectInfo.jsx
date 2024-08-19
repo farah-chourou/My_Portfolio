@@ -35,7 +35,10 @@ const ProjectInfo = () => {
                 {item.about.demo && item.about.demo != "" ? (
                   <li className="font-general-regular text-ternary-dark dark:text-ternary-light">
                     <span>Demo : </span>
-                    <span className="underline decoration-blue-500 decoration-2 text-indigo-500 hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300">
+                    <span
+                      onClick={() => window.open(item.about.demo)}
+                      className="underline decoration-blue-500 decoration-2 text-indigo-500 hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300"
+                    >
                       {item.about.demo}
                     </span>
                   </li>

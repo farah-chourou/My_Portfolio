@@ -51,7 +51,7 @@ export const projectsData = [
     img: [image42, image40, image41],
     ProjectHeader: {
       title: "Rcrooter",
-      publishDate: "Jul 26, 2021",
+      publishDate: "2024",
       tags: Types.WEB,
     },
     technologies: [
@@ -59,8 +59,9 @@ export const projectsData = [
       "Nest JS",
       "Mysql",
       "Prisma",
-      "LLM (Model GPT 3.5)",
+      "LLM (Open AI)",
       "Shadcn UI",
+      "Github Action",
     ],
     description: [
       "RCrooter is designed to address common recruitment challenges, such as inefficiencies in managing applications, difficulties in evaluating candidate competencies, and high workloads for HR professionals. By automating and optimizing key recruitment processes, RCrooter not only saves time but also enhances the quality of hires.",
@@ -78,8 +79,9 @@ export const projectsData = [
         "Nest JS",
         "Mysql",
         "Prsima",
-        "LLM (Model GPT 3.5)",
+        "LLM (Open AI)",
         "Shadcn UI",
+        "Github Action",
       ],
     },
   },
@@ -90,7 +92,7 @@ export const projectsData = [
     img: [image36, image35, image37],
     ProjectHeader: {
       title: "Smart BOT Hub",
-      publishDate: "Jul 26, 2021",
+      publishDate: "2024",
       tags: Types.WEB,
     },
     technologies: ["React JS", "LLM(Model GPT 3.5)", "Material UI"],
@@ -113,7 +115,7 @@ export const projectsData = [
     img: [image1, image2],
     ProjectHeader: {
       title: "Project & Task Management Platform",
-      publishDate: "Jul 26, 2021",
+      publishDate: "2023",
       tags: Types.WEB,
     },
     technologies: ["React JS", "Node JS", "Mongo DB"],
@@ -135,7 +137,7 @@ export const projectsData = [
     img: [image27, image28, image29],
     ProjectHeader: {
       title: "LuxuryBookings Platform",
-      publishDate: "Jul 26, 2021",
+      publishDate: "2023",
       tags: Types.WEB,
     },
     technologies: ["React JS", "Node JS", "Mongo DB"],
@@ -165,7 +167,7 @@ export const projectsData = [
     technologies: ["React JS", "Node JS", "Mongo DB"],
     ProjectHeader: {
       title: "Art Collection Platform",
-      publishDate: "Jul 26, 2021",
+      publishDate: "2023",
       tags: Types.WEB,
     },
     description: [
@@ -197,7 +199,7 @@ export const projectsData = [
     technologies: ["React JS", "Node JS", "Mongo DB"],
     ProjectHeader: {
       title: "TV Subscription Management Platform",
-      publishDate: "Oct 11, 2023",
+      publishDate: "2023",
       tags: Types.WEB,
     },
     description: [
@@ -226,7 +228,7 @@ export const projectsData = [
     technologies: ["React JS", "Spring Boot", "MySql"],
     ProjectHeader: {
       title: "Health Management Web Application",
-      publishDate: "Jul 26, 2021",
+      publishDate: "2021",
       tags: Types.WEB,
     },
     description: [
@@ -250,7 +252,7 @@ export const projectsData = [
     technologies: ["React JS"],
     ProjectHeader: {
       title: "Audiovisual Agency Platform",
-      publishDate: "Jul 26, 2021",
+      publishDate: "2021",
       tags: Types.WEB,
     },
     description: [
@@ -273,7 +275,7 @@ export const projectsData = [
     technologies: ["React JS", "Node JS", "Mongo DB"],
     ProjectHeader: {
       title: "University Platform Management",
-      publishDate: "Jul 26, 2021",
+      publishDate: "2022",
       tags: Types.WEB,
     },
     description: [
@@ -296,7 +298,7 @@ export const projectsData = [
     technologies: ["Flutter"],
     ProjectHeader: {
       title: "Web2App Application",
-      publishDate: "Jul 26, 2021",
+      publishDate: "2022",
       tags: Types.MOBILE,
     },
     description: [
@@ -317,7 +319,7 @@ export const projectsData = [
     technologies: ["Unity", "C#"],
     ProjectHeader: {
       title: "2D/3D Game",
-      publishDate: "Jul 26, 2021",
+      publishDate: "2022",
       tags: Types.GAME,
     },
     description: [
@@ -338,7 +340,7 @@ export const projectsData = [
     technologies: ["Unity", "C#"],
     ProjectHeader: {
       title: "2D Game",
-      publishDate: "Jul 26, 2021",
+      publishDate: "2022",
       tags: Types.GAME,
     },
     description: [
@@ -359,7 +361,7 @@ export const projectsData = [
     technologies: ["Unity", "C#"],
     ProjectHeader: {
       title: "The Lady in Endless Run",
-      publishDate: "Jul 26, 2021",
+      publishDate: "2020",
       tags: Types.GAME,
     },
     description: [
@@ -380,7 +382,7 @@ export const projectsData = [
     technologies: ["Unity", "C#", "AR kit", "Maya"],
     ProjectHeader: {
       title: "2D/3D Game",
-      publishDate: "Jul 26, 2021",
+      publishDate: "2020",
       tags: Types.AR,
     },
     description: [
@@ -403,7 +405,7 @@ export const projectsData = [
     technologies: ["Maya"],
     ProjectHeader: {
       title: "3D Modeling",
-      publishDate: "Jul 26, 2021",
+      publishDate: "2019",
       tags: Types.THREED,
     },
     description: [
@@ -424,7 +426,7 @@ export const projectsData = [
     technologies: ["Android", "Java", "FireBase"],
     ProjectHeader: {
       title: "TunisianCamp Application",
-      publishDate: "Jul 26, 2021",
+      publishDate: "2022",
       tags: Types.MOBILE,
     },
     description: [

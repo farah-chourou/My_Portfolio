@@ -6,14 +6,14 @@ import developerLight from "../../images/pcavatar.png";
 import developerDark from "../../images/pcavatar.png";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
-import cv from "./cv_farah.pdf";
+import cv from "./CV_Farah_CHOUROU_EN.pdf";
 
 const AppBanner = () => {
   const [activeTheme] = useThemeSwitcher();
   const [textIndex, setTextIndex] = useState(0);
   const texts = [
-    " Full Stack Developer ",
-    "Software Engineering Student",
+    " Full Stack JS Developer ",
+    "Software Engineer",
     "Freelancer",
   ];
   const currentText = texts[textIndex];
@@ -49,7 +49,7 @@ const AppBanner = () => {
   }, [textIndex, textLength, texts.length]);
 
   const handleDownload = () => {
-    const pdfFilePath = "/CV_farah.pdf";
+    const pdfFilePath = "/CV_Farah_CHOUROU_EN.pdf";
     window.open(pdfFilePath, "_blank");
   };
 

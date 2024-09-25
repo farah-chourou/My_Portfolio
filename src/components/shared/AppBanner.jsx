@@ -6,7 +6,7 @@ import developerLight from "../../images/pcavatar.png";
 import developerDark from "../../images/pcavatar.png";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
-import cv from "./CV_Farah_CHOUROU_EN.pdf";
+import cv from "./CV_Farah.pdf";
 
 const AppBanner = () => {
   const [activeTheme] = useThemeSwitcher();

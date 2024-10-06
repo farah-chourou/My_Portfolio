@@ -56,9 +56,9 @@ export const projectsData = [
     },
     technologies: [
       "Next JS",
-      "Nest JS",
+      //  "Nest JS",
       "Mysql",
-      "Prisma",
+      //  "Prisma",
       "LLM (Open AI)",
       "Shadcn UI",
       "Github Action",
@@ -76,9 +76,9 @@ export const projectsData = [
 
       technologiesDetails: [
         "Next JS",
-        "Nest JS",
+        //   "Nest JS",
         "Mysql",
-        "Prsima",
+        // "Prsima",
         "LLM (Open AI)",
         "Shadcn UI",
         "Github Action",
@@ -295,7 +295,7 @@ export const projectsData = [
     title: "Web2App",
     category: Types.MOBILE,
     img: [image10],
-    technologies: ["Flutter"],
+    technologies: ["React Native"],
     ProjectHeader: {
       title: "Web2App Application",
       publishDate: "2022",
@@ -308,7 +308,7 @@ export const projectsData = [
       type: "Freelance",
       services: "Front End & Backend Development ",
       lienGithub: "",
-      technologiesDetails: ["Flutter"],
+      technologiesDetails: ["React Native"],
     },
   },
   {
